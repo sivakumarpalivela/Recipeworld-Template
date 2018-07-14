@@ -1,0 +1,60 @@
+html,body,h1,ul,div,h2,h3{margin: 0px;padding: 0px;font-family: 'Open Sans', sans-serif;}
+.imgs{width:150px;height: 150px;border: 5px solid skyblue;position: absolute;top:8px;left: 8px; }
+.header{background-color: #af0b2ae0;color: white;text-align: center;}
+.header h1,.header ul{padding-top: 13px;}
+.header ul{padding-bottom: 25px;}
+.header a{text-decoration-line: none;color: white;}
+.header li{
+    list-style-type: none;
+    display: inline-block;
+    padding-right:5px;
+}
+.header li a:hover{color:skyblue;}
+.main-content,.mains-content,.mainse-content,.footer,.mai-content{background-image: url("images/stardust.png");}
+.main-content,.mains-content,.mainse-content,.mai-content{padding-top: 50px;overflow-y: hidden;}
+.mains-content{padding-bottom: 25px;}
+.newimgs{max-width:100%;max-height: 100%;}
+.mains,.mainspoo,.mainfood{background-color: white;width: 55%;margin-left: auto;margin-right: auto;}
+.mainsdo{background-color: white;width: 35%;margin-left:auto;margin-right: auto;margin-bottom: 4em;}
+.mainspoo{padding-bottom: 10px;}
+.mains h2,.mainspoo h2,.mainsdo h2,.mainfood h2{text-align: center;padding-top: 27px;padding-bottom: 27px;color: green;}
+.mai-content{padding-top: 25px;}
+.footer{color: white;text-align: center;padding: 3px;}
+.featured-image{width: 75%;margin-left: auto;margin-right: auto;box-sizing: inherit;padding-bottom: 35px;}
+.feature{background-color: black;
+    color: white;
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid white;
+}
+
+/*recipes*/
+ul {list-style-type: none;}
+.imag{width: 95%;margin-left: auto;margin-right: auto;}
+.recipes img,.reci img{width:95px;height: 95px;}
+.recipes li{border: 1px solid slategrey;margin: 10px;height: 95px;}
+.divs{display: inline-block;position: relative;bottom: 1.5em;padding-left: 10px;}
+.divs a{text-decoration-line: none;color: green;}
+
+/*suggest*/
+.myform{width: 65%;padding-left:20px;padding-bottom: 20px;}
+.myform input,textarea{margin-top: 4px;margin-bottom: 18px;}
+textarea{height: 250px;width: 300px;border-color: green;}
+input{width: 300px;border-color: green;}
+.check{width: auto;height: auto;border-color: green;}
+.sub{width: auto;height: auto;}
+
+/*CakePage*/
+.paratag{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.imgcak{width: 200px;height: 200px;}
+.mainfood{margin-bottom: 25px;}
+.mainfood h3{color: green;border-bottom: 1px solid black;}
+.mainfood ul{list-style-type:disc;margin-left: 40px;padding-top: 13px;}
+.flexdiv img{padding-top: 13px;padding-right: 10px;}
+
+
